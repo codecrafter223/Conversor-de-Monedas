@@ -1,46 +1,27 @@
-Currency Converter
-A simple currency converter application built with Python and Tkinter. This program allows users to convert amounts between two currencies (EUR and USD) using a user-friendly graphical interface.
-Features
+# Conversor de Monedas (EUR a USD y viceversa)
 
-Convert between EUR and USD with predefined exchange rates.
-Input validation to handle invalid entries (displays "Error" if the input is not a number).
-Clean and intuitive GUI built with Tkinter.
-Easy-to-use dropdown menus for selecting source and destination currencies.
+Este es un programa simple de conversión de monedas que permite convertir entre Euros (EUR) y Dólares Estadounidenses (USD) utilizando una interfaz gráfica de usuario (GUI) creada con Tkinter en Python.
 
-Requirements
+## Características
 
-Python 3.x
-Tkinter (included with standard Python installations)
-No additional libraries required
+- Selecciona la moneda de origen y la moneda de destino desde menús desplegables.
+- Ingresa la cantidad a convertir.
+- Haz clic en el botón **Convertir** para obtener el resultado.
+- Soporta conversiones entre EUR y USD.
 
-How to Run
+## Requisitos
 
-Download the files from this repository.
-Ensure Python 3.x is installed on your computer.
-Run the script with:python currency_converter.py
+- Python 3.x
+- Tkinter (generalmente incluido con Python)
 
+## Instrucciones de Uso
 
-Enter an amount, select the source and destination currencies, and click "Convertir" to see the result.
+**Instalación:**
+Asegúrate de tener Python instalado en tu sistema. Tkinter suele venir preinstalado con Python, pero si no es así, puedes instalarlo siguiendo las instrucciones específicas para tu sistema operativo.
 
-File Structure
+**Ejecución:**
+Guarda el código en un archivo con extensión `.py`, por ejemplo:
 
-currency_converter.py: Main Python script containing the application code.
-screenshot.png (optional): Screenshot of the application in action.
+```bash
+conversor_monedas.py
 
-Screenshot
-
-Note: Replace screenshot.png with the actual filename of your screenshot after uploading it to the repository.
-Usage
-
-Select currencies: Choose the source and destination currencies (EUR or USD) from the dropdown menus.
-Enter amount: Type the amount to convert in the "Cantidad a convertir" field.
-Convert: Click the "Convertir" button to display the converted amount in the "Resultado" field.
-Error handling: If you enter an invalid amount (e.g., letters), the result will show "Error".
-
-Notes
-
-The exchange rates (1 EUR = 1.1 USD, 1 USD = 0.9 EUR) are hardcoded for simplicity. In a production environment, you could integrate an API for real-time rates.
-This is a basic version designed for demonstration purposes, but it can be extended with more currencies or features.
-
-License
-MIT License
