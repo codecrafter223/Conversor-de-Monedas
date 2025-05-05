@@ -2,6 +2,11 @@
 
 Este es un programa simple de conversión de monedas que permite convertir entre Euros (EUR) y Dólares Estadounidenses (USD) utilizando una interfaz gráfica de usuario (GUI) creada con Tkinter en Python.
 
+
+<p align="center">
+  <img src="screenshot.png" alt="Conversor de Monedas" width="350">
+</p>
+
 ## Características
 
 - Selecciona la moneda de origen y la moneda de destino desde menús desplegables.
